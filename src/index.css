@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
 }
 
 code {
@@ -19,10 +21,15 @@ header{
   justify-content: center;
 }
 
+h2{
+  text-align: center;
+}
+
 
 .app{
-  height: 100vh;
+  height: 100%;
   width: 100vw;
+
 }
 
 
@@ -52,4 +59,26 @@ header{
 .btn:hover{
   font-weight: bold;
   border: 3px solid #5773FF;
+}
+
+.card{
+  height:350px;
+  width: 220px;
+  border: 1px solid #5773FF;
+  border-radius: 10px;
+}
+
+.character-display{
+  padding: 5%;
+}
+
+.card-title{
+  text-align: center;
+  border-bottom: 1px solid #5773FF;
+  padding: 5%;
+}
+
+.card-img{
+  width: 100%;
+  height:100%;
 }

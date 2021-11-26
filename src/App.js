@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Characters } from "./components/Characters";
 
 function App() {
   const [isActive, setIsActive] = useState(false);
@@ -17,6 +18,7 @@ function App() {
           </button>
         </div>
       </header>
+      <Characters />
     </div>
   );
 }
