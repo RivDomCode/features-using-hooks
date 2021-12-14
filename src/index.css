@@ -28,7 +28,8 @@ h2{
 
 .app{
   height: 100%;
-  width: 100vw;
+  width: 100%;
+  overflow: hidden;
 
 }
 
@@ -61,24 +62,36 @@ h2{
   border: 3px solid #5773FF;
 }
 
-.card{
+.cards{
   height:350px;
   width: 220px;
   border: 1px solid #5773FF;
   border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .character-display{
   padding: 5%;
 }
 
-.card-title{
+.cards-title{
   text-align: center;
   border-bottom: 1px solid #5773FF;
   padding: 5%;
 }
 
-.card-img{
+.cards-img{
   width: 100%;
   height:100%;
+}
+
+.cards-layout{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.far{
+  cursor: pointer;
 }
